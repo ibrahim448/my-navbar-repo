@@ -5,8 +5,317 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Navbar</title>
+
+
+ <!--CSS Link-->
+ <link rel="stylesheet" href="./css/style.css">
+ <!--BS Link-->
+ <link rel="stylesheet" href="./bs/css/bootstrap.min.css">
+ <!--font Awesome link-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+ <header>
+
+     <nav class="navbar navbar-expand-lg navbar-light bg-light my-style">
+         <div class="container-fluid">
+           <a class="navbar-brand" href="#">IBRA<span>HIM</span></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#team-member">About</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#service-section">Service</a>
+               </li>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Dropdown
+                 </a>
+                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="#">Action</a></li>
+                   <li><a class="dropdown-item" href="#">Another action</a></li>
+                 </ul>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#footer">Contact</a>
+               </li>
+               
+             </ul>
+             
+           </div>
+         </div>
+       </nav>
+
+ </header>
+
+
+<main>
+
+<section class="section">
+ <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+   <div class="carousel-indicators">
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+   </div>
+   <div class="carousel-inner">
+     <div class="carousel-item slider-1 active">
+       <div class="hero-text">
+         <h5>First slide label</h5>
+         <p>Some representative placeholder content for the first slide.</p>
+       </div>
+     </div>
+     <div class="carousel-item slider-2">
+      
+       <div class="hero-text">
+         <h5>Second slide label</h5>
+         <p>Some representative placeholder content for the first slide.</p>
+       </div>
+     </div>
+     <div class="carousel-item slider-3">
+      
+       <div class="hero-text">
+         <h5>Third slide label</h5>
+         <p>Some representative placeholder content for the first slide.</p>
+       </div>
+     </div>
+   </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+   </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+   </button>
+ </div>
+
+</section>
+
+
+<section id="service-section">
+ <div class="container">
+   <h1 class="text-center pt-5 text-uppercase">Our service</h1>
+   <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores inventore rerum quis illo at quos.</p>
+   <div class="row">
+
+     <div class="col-lg-4">
+       <div class="card m-3">
+         <img src="img/service1.jpg" alt="" class="card-img-top">
+         <div class="card-body text-center p-4">
+           <h4 class="card-title text-uppercase">body bilder</h4>
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet voluptatibus eaque modi.</p>
+           <a href="#">click here</a>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-lg-4">
+       <div class="card m-3">
+         <img src="img/service2.jpg" alt="" class="card-img-top">
+         <div class="card-body text-center p-4">
+           <h4 class="card-title text-uppercase">jym floor</h4>
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet voluptatibus eaque modi.</p>
+           <a href="#">click here</a>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-lg-4">
+       <div class="card m-3">
+         <img src="img/service3.jpg" alt="" class="card-img-top">
+         <div class="card-body text-center p-4">
+           <h4 class="card-title text-uppercase">hard work</h4>
+           <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem amet voluptatibus eaque modi.</p>
+           <a href="#">click here</a>
+         </div>
+       </div>
+     </div>
     
+   </div>
+ </div>
+</section>
+
+
+<section id="team-member">
+ <div class="container">
+   <h1 class="text-center pt-5 text-uppercase">Our team member's</h1>
+   <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores inventore rerum quis illo at quos.</p>
+   <div class="row">
+
+     <div class="col-lg-4">
+       <div class="card m-3 ">
+         <img src="img/team member1.jpg" alt="" class="img-fluid">
+         <div class="inner-card text-center p-3">
+           <h3 class="text-uppercase pt-3">Mr. John</h3>
+           <p class="text-uppercase">Web developer</p>
+           <a class="btn btn-info" href="#">See more</a>
+           <div class="text-member text-center p-3">
+             <h3 class="text-uppercase pt-5 pb-4">i am web developer</h3>
+             <p class="text-uppercase pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laudantium fugit laborum atque
+                ab officiis cum sit eum velit magnam?</p>
+             <a class="btn btn-info" href="#">See more</a>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-lg-4">
+       <div class="card m-3 ">
+         <img src="img/team member2.jpg" alt="" class="img-fluid">
+         <div class="inner-card text-center p-3">
+           <h3 class="text-uppercase pt-3">team member's</h3>
+           <p class="text-uppercase"> web developer</p>
+           <a class="btn btn-info" href="#">See more</a>
+           <div class="text-member text-center p-3">
+             <h3 class="text-uppercase pt-5 pb-4">i am web developer</h3>
+             <p class="text-uppercase pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laudantium fugit laborum atque
+                ab officiis cum sit eum velit magnam?</p>
+             <a class="btn btn-info" href="#">See more</a>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-lg-4">
+       <div class="card m-3 ">
+         <img src="img/team member3 - Copy.jfif" alt="" class="img-fluid">
+         <div class="inner-card text-center p-3">
+           <h3 class="text-uppercase pt-3">Mrs. anjella</h3>
+           <p class="text-uppercase">Web designer</p>
+           <a class="btn btn-info" href="#">See more</a>
+           <div class="text-member text-center p-3">
+             <h3 class="text-uppercase pt-5 pb-4">i am web developer</h3>
+             <p class="text-uppercase pb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero laudantium fugit laborum atque
+                ab officiis cum sit eum velit magnam?</p>
+             <a class="btn btn-info" href="#">See more</a>
+           </div>
+         </div>
+       </div>
+     </div>
+
+   </div>
+ </div>
+</section>
+
+
+<section id="accordion">
+ <div class="container">
+   <h1 class="text-uppercase text-center pt-5">faq's</h1>
+   <p class="text-center pb-3">Frequent Accordion Question's</p>
+   <div class="row">
+     <div class="col-lg-5">
+       <div class="leftside pb-3">
+         <h2 class="text-center pb-4 text-uppercase">my favorite animal</h2>
+         <img src="img/monkey.jfif" alt="" class="img-fluid">
+         <div class="left-text">
+           <h5 class=" text-center text-uppercase pt-4 pb-2">Monkey</h5>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti cupiditate rem cumque aspernatur delectus maxime um numquam nostrum nesciunt esse molestiae? Aut, non! Repellat ratione esse fugit officiis nesciunt possimus optio repudiandae vero, dicta cum fugiat blanditiis, dolor consequatur laborum dolore voluptatibus omnis accusamus!</p>
+           <a href="#" class="btn btn-danger">See more</a>
+         </div>
+       </div>
+     </div>
+
+     <div class="col-lg-1"></div>
+
+<!-----------------------rightside------------------------->
+<!-----------------------rightside------------------------->
+
+     <div class="col-lg-6">
+       <div class="rightside">
+         <div class="accordion accordion-flush" id="accordionFlushExample">
+           <div class="accordion-item mb-2">
+             <h2 class="accordion-header mb-0" id="flush-headingOne">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                 01. My choice... <span class="fa fa-chevron-down"></span>
+               </button>
+             </h2>
+             <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+               <div class="accordion-body">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magni vitae corrupti ipsam fuga temporibus deleniti molestias. Dignissimos beatae nisi cumque sequi nesciunt adipisci blanditiis.
+               </div>
+             </div>
+           </div>
+           <div class="accordion-item mb-2">
+             <h2 class="accordion-header mb-0" id="flush-headingTwo">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                 02. My choice...<span class="fa fa-chevron-down"></span>
+               </button>
+             </h2>
+             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+               <div class="accordion-body">
+                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, sed? Officiis accusamus sed illo praesentium laborum voluptate aut neque nihil dolor, perferendis blanditiis? In, commodi.
+               </div>
+             </div>
+           </div>
+
+           <div class="accordion-item mb-2">
+             <h2 class="accordion-header mb-0" id="flush-headingThree">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                 03. My choice...<span class="fa fa-chevron-down"></span>
+             </h2>
+             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+               <div class="accordion-body">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste odit corporis, quis minima iure ducimus dolorem ea delectus quasi! Quod exercitationem eum facere placeat velit?
+               </div>
+             </div>
+           </div>
+
+           <div class="accordion-item mb-2">
+             <h2 class="accordion-header mb-0" id="flush-headingFour">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                 04. My choice...<span class="fa fa-chevron-down"></span>
+               </button>
+             </h2>
+             <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+               <div class="accordion-body">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste odit corporis, quis minima iure ducimus dolorem ea delectus quasi! Quod exercitationem eum facere placeat velit?
+               </div>
+             </div>
+           </div>
+
+           <div class="accordion-item mb-2">
+             <h2 class="accordion-header mb-0" id="flush-headingFive">
+               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                 05. My choice...<span class="fa fa-chevron-down"></span>
+               </button>
+             </h2>
+             <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+               <div class="accordion-body">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste odit corporis, quis minima iure ducimus dolorem ea delectus quasi! Quod exercitationem eum facere placeat velit?
+               </div>
+             </div>
+           </div>
+
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+
+</main>
+
+<footer id="footer" class="pb-0">
+<a href="#">Facebook</a>
+<a href="#">Youtube</a>
+<a href="#">instrgram</a>
+<a href="#">twitter</a>
+<p>Copyright by &copy; Ibrahim <span>Hossain</span></p>
+</footer>
+
+
+
+
+ <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
