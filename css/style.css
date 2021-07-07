@@ -1,0 +1,332 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar-brand {
+    color: #262626 !important;
+    font-size: 30px !important;
+    font-weight: 900;
+}
+.navbar-brand span{
+    color: crimson !important;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.nav-link{
+    color: #262626 !important;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.active{
+    color: #fff !important;
+    background-color: crimson;
+}
+.nav-link:hover:not(.active){
+    background-color: #262626;
+    color: #fff !important;
+    font-weight: 800;
+}
+
+.carousel-item{
+    position: relative;
+    min-height: 85vh;
+}
+.slider-1{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/slider-img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slider-2{
+    background: url(../img/slider-img2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.slider-3{
+    background: url(../img/slider-img3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text{
+    text-align: center;
+    margin-top: 220px;
+}
+.hero-text h5{
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+.hero-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+/*****************************************************************
+service-section
+*****************************************************************/
+
+#service-section{
+    background-color: #ddd;
+}
+
+#service-section h1{
+    color: crimson;
+    font-weight: 900;
+    font-size: 32px;
+}
+#service-section p{
+    color: #262626;
+    font-weight: 600;
+    font-size: 18px;
+}
+#service-section .card img{
+    cursor: pointer;
+}
+#service-section .card .card-body h4{
+    color: crimson;
+    font-weight: 900;
+    font-size: 26px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+#service-section .card .card-body p{
+    color: #262626;
+    font-weight: 600;
+    font-size: 18px;
+}
+#service-section .card .card-body a{
+    color: crimson;
+    font-weight: 900;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#service-section .card .card-body a:hover{
+   text-decoration: underline;
+   color: #262626;
+}
+
+/****************************************************
+team member
+****************************************************/
+
+#team-member{
+    background-color: #ffdfff;
+}
+#team-member h1{
+    color: crimson;
+    font-weight: 900;
+    font-size: 32px;
+}
+#team-member p{
+    color: #262626;
+    font-weight: 600;
+    font-size: 18px;
+}
+.inner-card h3{
+    color: crimson;
+    font-weight: 900;
+    font-size: 26px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.inner-card p{
+    color: #262626;
+    font-weight: 600;
+    font-size: 18px;
+}
+.inner-card a{
+    color: #262626;
+    font-weight: 700;
+    font-size: 18px;
+}
+.card{
+    position: relative;
+    transition: 0.5s ease;
+}
+.text-member{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: darkgoldenrod;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.card:hover .text-member{
+    opacity: 11;
+}
+
+/*******************************************************
+Accordion
+******************************************************/
+#accordion{
+    background-color: #fff;
+}
+#accordion h1{
+    color: crimson;
+    font-weight: 900;
+}
+#accordion p{
+    color: #262626;
+    font-weight: 600;
+    font-size: 25px;
+}
+.leftside h2{
+    color: crimson;
+    font-weight: 900;
+    font-size: 28px;
+}
+.leftside img{
+    display: block;
+    width: 100%;
+    height:350px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+.left-text h5{
+    color: crimson;
+    font-weight: 900;
+    font-size: 28px;
+}
+.left-text p{
+    color: #262626;
+    font-weight:500 !important;
+    font-size: 17px !important;
+    text-align: justify;
+}
+
+
+/*************rightside***********/
+/*
+.accordion-item{
+    font-size: 16px;
+    border: 1px solid #dee2e6;
+}
+.accordion-item h2 .accordion-button{
+    color: red;
+    position: relative;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.3) !important;
+}
+.accordion-item h2 .accordion-button .fa{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) rotate(-180deg);
+    transition: 0.5s ease;
+}
+.accordion-item h2 .accordion-button:hover{
+    text-decoration: none;
+    box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.3) !important;
+}
+
+.accordion-item h2 button.collapsed{
+    color: #262626;
+}
+.accordion-item h2 button.collapsed .fa{
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+}
+.accordion-item h2 button.collapsed:hover{
+    box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.3);
+}
+.accordiod-item .accordion-body{
+    padding: 20px 0;
+}
+
+.accordion-button:not(.collapsed){
+    color: red;
+    background-color: #fff;
+    border: none;
+}
+
+*/
+
+.rightside{
+    padding-top: 60px;
+}
+.accordion-item{
+    color: #262626;
+    font-size: 16px;
+    border: 1px solid #dee2e6;
+    text-align: justify;
+}
+.accordion-item h2 .accordion-button{
+    color: crimson;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    box-shadow: 0px 3px 10px -3px rgba(0, 0, 0, 0.4) !important;
+    position: relative;
+    border: none;
+}
+.accordion-item h2 .accordion-button .fa{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(-50%) rotate(-180deg);
+    transition: 0.5s ease;
+}
+.accordion-item h2 button.collapsed{
+    color: #262626;
+}
+
+.accordion-item h2 button.collapsed .fa{
+    right: 20px;
+    top: 50%;
+    transform: translate(-50%);
+}
+.accordion-item .accordion-body{
+    padding: 20px;
+}
+
+.accordion-button:not(.collapsed){
+    color: crimson;
+    background-color: #fff !important;
+}
+
+/******************************************************
+footer
+*****************************************************/
+#footer{
+    background-color: #262626;
+    padding-top: 10px;
+    text-align: center;
+}
+#footer a{
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+#footer a:hover{
+    color: crimson;
+    letter-spacing: 5px;
+}
+#footer p{
+    color: crimson;
+    font-size: 20px;
+    padding-bottom: 3px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+#footer p:hover{
+    color: #fff;
+    letter-spacing: 5px;
+}
